@@ -248,7 +248,7 @@ namespace csharp_ifCondition
                 Console.WriteLine("Sintassi errata. Inserisci un numero");
             }
 
-            // Operatore ternario
+            // Operatore ternario if()/else(if()/else())
             Console.WriteLine(num1 > 26 ? "Il numero è maggiore di 26." : (num1 == 26 ? "Il numero è uguale a 26." : "Il numero è minore di 26."));
         }
     }
